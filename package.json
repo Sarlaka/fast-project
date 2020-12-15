@@ -1,7 +1,7 @@
 {
   "name": "fast-project",
-  "version": "1.2.2",
-  "homepage": "",
+  "version": "1.2.3",
+  "homepage": "https://github.com/Sarlaka/fast-project",
   "description": "快速构建前端项目脚手架",
   "bin": {
     "fast": "./bin/fast.js"
