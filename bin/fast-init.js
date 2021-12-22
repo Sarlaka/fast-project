@@ -2,7 +2,7 @@
  * @Author: duchengdong
  * @Date: 2020-11-26 15:51:54
  * @LastEditors: duchengdong
- * @LastEditTime: 2020-12-02 18:04:16
+ * @LastEditTime: 2021-12-22 10:34:37
  * @Description: 
  */
 // #!/usr/bin/env node
@@ -65,7 +65,7 @@ function go() {
             type:'list',
             name: 'tempType',
             message: '请选择你的项目模板',
-            choices:['react+react-router+redux','vue3+vue-router','vue2+vue-router+vuex'],
+            choices:['react+react-router+redux','vue3+vue-router','vue2+vue-router+vuex','uni-template-vue'],
             default: 0
         }]).then(answers => {
             return {
